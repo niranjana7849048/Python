@@ -1,0 +1,43 @@
+Total transactions loaded: 10
+
+TASK 1: SEARCHING
+Target transaction ID: 10010
+Linear search result: 10010
+Linear search comparisons: 10
+Binary search result: 10010
+Binary search comparisons: 4
+Binary search best comparisons: 1
+Binary search average comparisons: 2.9
+Binary search worst comparisons: 4
+
+TASK 2: SORTING
+Account selected: 5001
+Statement entries: 4
+Insertion sort dates: ['2026-11-15', '2026-11-17', '2026-11-18', '2026-11-18']
+Merge sort dates: ['2026-11-15', '2026-11-17', '2026-11-18', '2026-11-18']
+Insertion sort time: 1.6e-05 seconds
+Merge sort time: 0.000384 seconds
+
+TASK 3: DUPLICATE POSTING DETECTION
+Duplicate postings found: 2
+Original: {'transactionId': 10001, 'account': '5001', 'amount': 2500.0, 'merchant': 'Amazon', 'postingDate': '2026-11-18', 'timestamp': '2026-11-18T09:00:00'}
+Duplicate: {'transactionId': 10003, 'account': '5001', 'amount': 2500.0, 'merchant': 'Amazon', 'postingDate': '2026-11-18', 'timestamp': '2026-11-18T09:00:30'}
+Original: {'transactionId': 10002, 'account': '5002', 'amount': 1500.0, 'merchant': 'Flipkart', 'postingDate': '2026-11-18', 'timestamp': '2026-11-18T09:01:00'}
+Duplicate: {'transactionId': 10006, 'account': '5002', 'amount': 1500.0, 'merchant': 'Flipkart', 'postingDate': '2026-11-18', 'timestamp': '2026-11-18T09:01:45'}
+
+TASK 4: STACK
+Custom stack reverse adjustment: Adjustment 103
+Built-in stack reverse adjustment: Adjustment 103
+
+TASK 4: QUEUE
+Custom queue next review: Review 101
+Built-in queue next review: Review 101
+
+TASK 5: DIVIDE AND CONQUER MINIMUM AND MAXIMUM
+Transaction amounts: [2500.0, 1500.0, 2500.0, 4500.0, 800.0, 1500.0, 3200.0, 6000.0, 900.0, 1200.0]
+Divide and conquer minimum: 800.0
+Divide and conquer maximum: 6000.0
+Brute-force minimum: 800.0
+Brute-force maximum: 6000.0
+Divide and conquer time: 1.3e-05 seconds
+Brute-force time: 1e-06 seconds

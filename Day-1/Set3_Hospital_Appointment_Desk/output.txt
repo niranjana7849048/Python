@@ -1,0 +1,37 @@
+Total patients loaded: 20000
+Total appointments loaded: 10
+
+TASK 1: PATIENT SEARCHING
+Total patient records: 20000
+Total lookups performed: 1000
+Linear search total comparisons: 9991000
+Linear search average comparisons: 9991.0
+Binary search total comparisons: 13397
+Binary search average comparisons: 13.397
+Linear search time: 0.688226 seconds
+Binary search time: 0.004478 seconds
+
+TASK 2: APPOINTMENT SORTING
+Selection sort order: ['1', '3', '6', '9', '2', '5', '8', '4', '7', '10']
+Quick sort order: ['1', '3', '6', '9', '2', '5', '8', '4', '7', '10']
+Selection sort swaps: 6
+Quick sort swaps: 6
+
+TASK 3: DOUBLE-BOOKING DETECTION
+Double bookings found: 0
+
+TASK 4: QUEUE
+Queue: ['Token 101', 'Token 102', 'Token 103']
+Next walk-in patient: Token 101
+Remaining queue: ['Token 102', 'Token 103']
+
+TASK 4: STACK
+Stack: ['Patient 1001', 'Patient 1002', 'Patient 1003']
+Most recent patient: Patient 1003
+Remaining stack: ['Patient 1001', 'Patient 1002']
+
+TASK 5: DYNAMIC PROGRAMMING
+Maximum appointments using DP: 9
+Selected appointment IDs using DP: ['1', '3', '4', '5', '6', '7', '8', '9', '10']
+Appointments using greedy: 9
+Selected appointment IDs using greedy: ['1', '3', '4', '5', '6', '7', '8', '9', '10']
